@@ -4,15 +4,15 @@ Perform various text transforms, such as titlecase, retroactively.
 
 ## Meta actions
 
-`{:retro:retro_capitalise:n}`: Capitalise nth word back leaving other words as is.
+`{:retro_capitalise:n}`: Capitalise nth word back leaving other words as is.
 
-`{:retro:retro_title:n}`: Capitalise previous n words.
+`{:retro_title:n}`: Capitalise previous n words.
 
-`{:retro:retro_upper:n}`: Convert previous n words to uppercase.
+`{:retro_upper:n}`: Convert previous n words to uppercase.
 
-`{:retro:retro_lower:n}`: Convert previous n words to lowercase. Note that this doesn't work with forced uppercase (`{<}` and `{MODE:CAPS}`.
+`{:retro_lower:n}`: Convert previous n words to lowercase. Note that this doesn't work with forced uppercase (`{<}` and `{MODE:CAPS}`.
 
-`{:retro:retro_replace_space:n:c}`: Replace spaces between previous n words.
+`{:retro_replace_space:n:c}`: Replace spaces between previous n words.
 
 ## Usage
 
